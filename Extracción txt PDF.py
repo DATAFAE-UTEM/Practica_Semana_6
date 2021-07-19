@@ -8,8 +8,8 @@ import platform
 from pdf2image import convert_from_path
 import os
 
+# Ubicacion archivo
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-
 
 class lectura:
     poppler_path = r".\drivers\poppler-20.11.0\bin"
@@ -103,6 +103,7 @@ if __name__ == '__main__':
 
     os.chdir('C:\\Users\\marti\\OneDrive\\Desktop\\Datas\\PDf - Modelo extracción Py')
 
+# iteracion que extrae el texto de elemento definido
 for file in os.listdir():
     lee = lectura()
     lee.pdf(file)
