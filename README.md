@@ -11,3 +11,5 @@ posible tendencia emocional del documento.
 
 El desafío de esta semana está asociado a la comprobar la hipótesis de una tendencia emocional de los documentos en el tiempo,
 contrastadas con la posibilidad de medir riesgo a través de estos patrones.
+
+Finalmente, se destaca la utilización cruzada de R y Python para el desarrollo de esta tarea.
